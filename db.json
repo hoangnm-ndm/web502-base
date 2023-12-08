@@ -1,22 +1,16 @@
 {
   "products": [
     {
-      "name": "them san pham update update update",
-      "price": "2003333332323232323232",
-      "desc": "them san pham",
-      "id": "4L_f5qz"
-    },
-    {
-      "name": "san pham moi",
-      "price": "200333333",
-      "desc": "san pham moi update",
-      "id": "L6uKZsJ"
-    },
-    {
-      "name": "2323232323",
-      "price": "0323232222",
-      "desc": "23232323",
+      "name": "Product 1",
+      "price": 200,
+      "desc": "This is product 1",
       "id": "Z8Z7cmc"
+    },
+    {
+      "name": "Product 2",
+      "price": 300,
+      "desc": "This is product 2",
+      "id": "o6WT8Vs"
     }
   ]
 }

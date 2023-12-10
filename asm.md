@@ -2,26 +2,39 @@
 
 - Sinh viên clone source base về và mở bằng VS Code
 - Không tắt VS Code trong suốt quá trình thực hiện bài làm.
+- Thời gian làm bài: 60phút.
 
 ```
 npm i
 npm run dev
 ```
 
-#### 1: Get products (2đ)
+#### 1: Get products (1đ)
 
 #### 2: Create new products (name, price, desc) (2đ)
 
-#### 3: Update products (1đ)
+- Tạo được sản phẩm (1đ)
+- Validation: (1đ)
+  - Name bắt buộc phải có
+  - Price là số nguyên lớn hơn 0 và bắt buộc phải có
 
-#### 4: Delete product (1đ)
+#### 3: Update products (2đ)
 
-#### 5: Validation (2đ)
+- Set được sản phẩm cần update vào form (0.5đ)
+- Update được sản phẩm(1đ)
+- Có valid như khi tạo mới sản phẩm (0.5đ)
 
-- Name is required, price is required and greater than 0
-- Validation add product (1đ)
-- Validation update product (1đ)
+#### 4: Delete product (2đ)
 
-#### 6: Sử dụng typescript để định nghĩa type, interface, enum... (1đ)
+- Xoá được sản phẩm (1đ)
+- Xoá có confirm, thông báo thành công và cập nhật lại danh sách (1đ)
 
-#### 7: Giao diện đẹp mắt (được tuỳ ý sử dụng thư viện giao diện như bootstrap, tailwind...) (1đ)
+#### 5: Chức năng search tại product-list (1đ)
+
+#### 6: Sử dụng typescript khai báo hợp lý (1đ)
+
+- Không được phép sử dụng unknow, any cho tất cả các props, states chính
+
+#### 7: Giao diện tuỳ chỉnh đẹp mắt, hợp lý (1đ)
+
+(được phép sử dụng bootstrap, tailwind)
